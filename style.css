@@ -1,0 +1,121 @@
+body, html {
+    width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    background: #ffffff;
+    color: #ffffff;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background: #009e9d;
+    padding: 50px 0;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.left-sidebar{
+    background: #0010d5;
+    float: left;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content{
+    background: #97969b;
+    float: left;
+    width: 750px;
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.clear {
+    clear: both;
+}
+.footer{
+    background: #28282a;
+    padding: 100px 0;
+    padding: 50px 0;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+
+
+
+
+div.img 
+{ 
+margin: 2px; 
+border: 1px solid #0000ff; 
+height: auto; 
+width: auto; 
+float: left; 
+text-align: center; 
+}	
+div.img img 
+{ 
+display: inline; 
+margin: 3px; 
+border: 1px solid #ffffff; 
+} 
+div.img a:hover img {border: 1px solid #0000ff;} 
+div.desc 
+{ 
+text-align: center; 
+font-weight: normal; 
+width: 120px; 
+margin: 2px; 
+} 
+
+
+
+
+
